@@ -116,7 +116,7 @@
 .plates-text {
   font-family: "Bayon", sans-serif;
   font-weight: 400;
-  font-size: 33px;
+  font-size: 27px;
   line-height: 72.27px;
   letter-spacing: 0%;
   text-align: center;
@@ -151,8 +151,9 @@
 }
 .rightbottomimage {
   align-self: flex-end;
-  width: 1000px;
-  height: 800px;
+  width: 900px;
+  height: 700px;
+  overflow: hidden;
 }
 .centermaindiv {
   width: 650px;

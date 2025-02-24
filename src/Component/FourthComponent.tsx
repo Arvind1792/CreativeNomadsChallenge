@@ -102,7 +102,7 @@ const FourthComponent = () => {
         <img
           src={dynamicimages.rightbottomimg}
           alt=""
-          className="w-[1000px] h-[800px]"
+          
         />
       </div>
     </div>
