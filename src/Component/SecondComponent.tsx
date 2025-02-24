@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { motion } from "framer-motion";
 import './styles.css';
 import image1 from '../assets/controller1.png';
 import image2 from '../assets/controller2.png';
 import image3 from '../assets/controller3.png';
 const SecondComponent = () => {
-    const [hovered, setHovered] = useState(null); // Track hovered image
+  const [hovered, setHovered] = useState<null | string>(null);
+
   return (
     <div className='secondcomponent w-screen h-screen bg-black  flex flex-col justify-center items-center'>
        
