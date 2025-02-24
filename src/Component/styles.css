@@ -1,7 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@import "tailwindcss";
 .div1 {
   background: url("../assets/ps1bg.png") no-repeat center center;
   background-size: cover;
